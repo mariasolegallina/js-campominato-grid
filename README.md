@@ -3,14 +3,19 @@
 - creare la struttura html
 
 - cliccare su "gioca" per cominciare a giocare:
-    - creare in js gli elementi della griglia e inviarli inviarli al DOM:
-        - recuperare dal DOM l'elemento grid
-        - con un ciclo for, generare le 100 caselle e inviarle al DOM:
-            - generare 100 numeri (da 1 a 100)
-            - dichiarare la variabile gridCell con il codice html della cella
-            - inserire in gridCell i numeri generati dal ciclo for
-            - inviare gli elementi della griglia al DOM (codice )
-                
+    - aggiungere al bottone un'azione:
+        - recuperare dal DOM l'elemento start-btn
+         - aggiungere .addEventListener a startBtnElement
+         - inviare al DOM gridDOMElement privo di contenuto
+
+        - creare in js gli elementi della griglia e inviarli inviarli al DOM:
+            - recuperare dal DOM l'elemento grid
+             - con un ciclo for, generare le 100 caselle e inviarle al DOM:
+                - generare 100 numeri (da 1 a 100)
+                - dichiarare la variabile gridCell con il codice html della cella
+                - inserire in gridCell i numeri generati dal ciclo for
+                - inviare gli elementi della griglia al DOM (codice )
+
 - quando l’utente clicca su ogni cella, la cella cliccata si colora di azzurro e viene emesso un messaggio in console con il numero della cella cliccata
 
 
